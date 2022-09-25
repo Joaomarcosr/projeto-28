@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", "sans-serif";
+  @apply bg-white;
+  color: #1B1B1B;
+}
+
+.burguer:hover {
+  background-color: #FB9400;
+}
+
+.pizza:hover {
+  background-color: #6AB70A;
+}
+
+.transition-menu {
+  transition: all ease .35s;
+}
